@@ -1,0 +1,526 @@
+@media (min-width: 1400px) and (max-width: 1540px) {
+.header__inner {
+    background: #000000;
+    width: 1512px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form {
+    width: 563px;
+    height: 80px;
+    left: 475px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header-nav {
+    width: 463px;
+    height: 80px;
+    left: 1049px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.nav-logout {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 29.05px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 135px;
+    height: 47px;
+    top: 20px;
+    left: 37px;
+    gap: 0px;
+    opacity: 0px;
+    text-decoration: none
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 29.05px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 135px;
+    height: 47px;
+    top: 20px;
+    left: 181px;
+    gap: 0px;
+    opacity: 0px;
+    text-decoration: none;
+}
+
+.nav-sell {
+    background: #FFFFFF;
+    color: #000000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 29.05px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+.left-container {
+    display: flex;
+}
+
+.product-image {
+    width: 177.5272216796875px;
+        height: 177.5272216796875px;
+        top: 173px;
+        left: 80px;
+}
+
+.product-name, .product-price {
+    font-family: Inter;
+        font-weight: 700px;
+        font-size: 30px;
+        line-height: 36.31px;
+        letter-spacing: 0%;
+        color: #000000;
+}
+
+
+.span {
+    font-family: Inter;
+        font-weight: 400px;
+        font-size: 27px;
+        line-height: 32.68px;
+        letter-spacing: 0%;
+}
+
+.line {
+    border: 1px solid #000000;
+    width: 805.0000000000031px;
+        top: 403px;
+        left: 80px;
+        angle: -0 deg;
+        border-width: 1px;
+        margin-top: 100px;
+}
+
+
+.payment-method {
+    display: flex;
+        flex-direction: column;
+}
+
+.payment-method label {
+    color: #000000;
+    font-family: Inter;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    width: 326px;
+        height: 85px;
+        top: 403px;
+        left: 115px;
+}
+
+.payment-method_select {
+    border: 1px solid #5F5F5F;
+    color: #5F5F5F;
+    font-family: Inter;
+        font-weight: 700px;
+        font-size: 16px;
+        line-height: 19.36px;
+        letter-spacing: 0%;
+        width: 259.1544189453125px;
+            height: 31px;
+            top: 499px;
+            left: 181.85px;
+}
+
+
+.shipping-address label {
+    color: #000000;
+    font-family: Inter;
+        font-weight: 700px;
+        font-size: 20px;
+        line-height: 24.2px;
+        letter-spacing: 0%;
+        width: 326px;
+            height: 85px;
+            top: 593px;
+            left: 115px;
+}
+
+.address-edit_link {
+    color: #0073CC;
+    font-family: Inter;
+        font-weight: 400px;
+        font-size: 20px;
+        line-height: 24.2px;
+        letter-spacing: 0%;
+        width: 115px;
+            height: 85px;
+            top: 593px;
+            left: 700px;
+            position: absolute;
+
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm-surface {
+    border: solid #000000;
+    color: #000000;
+    width: 440px;
+        height: 230px;
+        top: 173px;
+        left: 987px;
+        border-width: 1px;
+
+}
+
+.payment-amount {
+    font-family: Inter;
+        font-weight: 400px;
+        font-size: 24px;
+        line-height: 29.05px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #000000;
+        width: 220;
+            height: 115px;
+            top: 173px;
+            left: 1207px;
+            border-bottom: 1px solid #000000;
+
+}
+
+.payment-method_text {
+
+    font-family: Inter;
+        font-weight: 400px;
+        font-size: 20px;
+        line-height: 24.2px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #000000;
+
+}
+
+
+
+.payment-amount_text {
+    font-family: Inter;
+        font-weight: 400px;
+        font-size: 20px;
+        line-height: 24.2px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #000000;
+        width: 220px;
+            height: 115px;
+            top: 173px;
+            left: 987px;
+}
+
+
+.purchase-button_submit {
+    background: #FF5555;
+    width: 440px;
+        height: 60px;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-family: Inter;
+            font-weight: 700px;
+            font-size: 26px;
+            line-height: 31.47px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin-top: 50px;
+}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 850px) {
+.header__inner {
+    background: #000000;
+    width: 1512px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form {
+    width: 563px;
+    height: 80px;
+    left: 475px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header-nav {
+    width: 463px;
+    height: 80px;
+    left: 1049px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.nav-logout {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 29.05px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 135px;
+    height: 47px;
+    top: 20px;
+    left: 37px;
+    gap: 0px;
+    opacity: 0px;
+    text-decoration: none
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 29.05px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 135px;
+    height: 47px;
+    top: 20px;
+    left: 181px;
+    gap: 0px;
+    opacity: 0px;
+    text-decoration: none;
+}
+
+.nav-sell {
+    background: #FFFFFF;
+    color: #000000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 29.05px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+.left-container {
+    display: flex;
+}
+
+.product-image {
+    width: 177.5272216796875px;
+    height: 177.5272216796875px;
+    top: 173px;
+    left: 80px;
+}
+
+.product-name,
+.product-price {
+    font-family: Inter;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 36.31px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+
+.span {
+    font-family: Inter;
+    font-weight: 400px;
+    font-size: 27px;
+    line-height: 32.68px;
+    letter-spacing: 0%;
+}
+
+.line {
+    border: 1px solid #000000;
+    width: 805.0000000000031px;
+    top: 403px;
+    left: 80px;
+    angle: -0 deg;
+    border-width: 1px;
+    margin-top: 100px;
+}
+
+
+.payment-method {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-method label {
+    color: #000000;
+    font-family: Inter;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    width: 326px;
+    height: 85px;
+    top: 403px;
+    left: 115px;
+}
+
+.payment-method_select {
+    border: 1px solid #5F5F5F;
+    color: #5F5F5F;
+    font-family: Inter;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    width: 259.1544189453125px;
+    height: 31px;
+    top: 499px;
+    left: 181.85px;
+}
+
+
+.shipping-address label {
+    color: #000000;
+    font-family: Inter;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    width: 326px;
+    height: 85px;
+    top: 593px;
+    left: 115px;
+}
+
+.address-edit_link {
+    color: #0073CC;
+    font-family: Inter;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    width: 115px;
+    height: 85px;
+    top: 593px;
+    left: 700px;
+    position: absolute;
+
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm-surface {
+    border: solid #000000;
+    color: #000000;
+    width: 440px;
+    height: 230px;
+    top: 173px;
+    left: 987px;
+    border-width: 1px;
+
+}
+
+.payment-amount {
+    font-family: Inter;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+    width: 220;
+    height: 115px;
+    top: 173px;
+    left: 1207px;
+    border-bottom: 1px solid #000000;
+
+}
+
+.payment-method_text {
+
+    font-family: Inter;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+
+}
+
+
+
+.payment-amount_text {
+    font-family: Inter;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+    width: 220px;
+    height: 115px;
+    top: 173px;
+    left: 987px;
+}
+
+
+.purchase-button_submit {
+    background: #FF5555;
+    width: 440px;
+    height: 60px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 31.47px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+}
