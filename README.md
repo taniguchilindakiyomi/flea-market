@@ -41,7 +41,7 @@ Laravel環境構築
 ・ MySQL8.0.26  
 ## ER図
 < - - - 作成したER図の画像 - - - >  
-![ER図](ER.png)
+![ER図](.png)
 
 
 ## URL
