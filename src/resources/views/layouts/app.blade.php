@@ -14,7 +14,7 @@
             <div class="header-img">
                 <img src="{{ asset('images/logo.svg') }}" alt="ロゴ">
             </div>
-            <form class="form" action="{{ url()->current() }}" method="get">
+            <form class="form" action="{{ url('/?page=mylist') }}" method="get">
                 <input type="text" name="search" value="{{ $search ?? request('search') }}" placeholder="何をお探しですか?">
                 <button type="submit">検索</button>
             </form>

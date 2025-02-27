@@ -12,7 +12,7 @@
     <header>
         <div class="header__inner">
             <div class="header-img">
-                <img src="{{ asset(ts'images/logo.svg') }}" alt="ロゴ">
+                <img src="{{ asset('images/logo.svg') }}" alt="ロゴ">
             </div>
         </div>
     </header>

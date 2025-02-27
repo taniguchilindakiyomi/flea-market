@@ -1,10 +1,16 @@
 <?php
 
+
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ItemController;
 use App\Http\Controllers\PurchaseController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\StripeController;
+use Laravel\Fortify\Fortify;
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -42,6 +48,6 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/item/{item}/favorite', [ItemController::class, 'storeFavorite']);
 
-
 });
+
 

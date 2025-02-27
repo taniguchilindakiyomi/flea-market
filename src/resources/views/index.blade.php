@@ -71,10 +71,20 @@
             recommendedItems.style.display = 'none';
         }
     }
+
+
         document.addEventListener('DOMContentLoaded', function() {
             let urlParams = new URLSearchParams(window.location.search);
             let page = urlParams.get('page') || 'recommended';
-            showItems(page);
+
+
+        let initialHeading = document.querySelector('h2[onclick="showItems(\'' + page + '\')"]');
+        if (initialHeading) {
+            initialHeading.classList.add('active');
+        }
+
+        showItems(page);
+
     });
 </script>
 

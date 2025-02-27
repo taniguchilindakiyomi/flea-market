@@ -47,8 +47,21 @@ class ItemController extends Controller
 
 
 
-    public function getDetail($item_id)
+    public function getDetail(Request $request, $item_id)
     {
+
+        $search = $request->get('search');
+
+        if ($search) {
+            session(['search' => $search]);
+
+
+            $items = Item::where('name', 'like', '%' . $search . '%')->get();
+        } else {
+            $items = Item::all();
+        }
+
+
         $item = Item::with('categories')->findOrFail($item_id);
 
 
@@ -57,7 +70,9 @@ class ItemController extends Controller
 
         $comments = Comment::with('user')->where('item_id', $item_id)->get();
 
-        return view('detail', compact('item', 'isFavorite', 'favoriteCount', 'comments'));
+        return view('detail', compact('item', 'isFavorite', 'favoriteCount', 'comments', 'items', 'search'));
+
+
     }
 
 
